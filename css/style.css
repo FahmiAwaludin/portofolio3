@@ -1,0 +1,71 @@
+html{
+    position: relative;
+}
+body {
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+canvas{
+    background-image: url('../img/3.jpg');
+}
+.jumbotron{
+    height: 400px;
+    background-image: url('../img/18.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -100px;
+}
+hr{
+    width: 250px;
+    border-top: 4px solid #999;
+}
+    
+.jumbotron img{
+    width: 150px;
+    border: 5px solid rgb(252, 243, 243);
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+.jumbotron h1, .jumbotron p{
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+.about hr {
+    width: 250px;
+    border-top: 3px solid #666;
+}
+section{
+    min-height: 600px;
+}
+.protfolio{
+    background-color: #666;
+}
+.protfolio h2{
+    color: rgb(245, 238, 238);
+}
+.protfolio hr {
+    width: 250px;
+    border-top: 3px solid rgb(248, 245, 245);
+}
+.contact hr {
+    width: 250px;
+    border-top: 3px solid rgb(8, 8, 8);   
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    padding-top: 30px;
+}
+.contact {
+    min-height: 800px;
+}
+footer p{
+    color: rgb(235, 214, 214);
+}
+.jumbotron h2{
+    color: aliceblue;
+}
+.jumbotron p{
+    color: aliceblue;
+}
